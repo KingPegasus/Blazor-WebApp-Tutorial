@@ -1,0 +1,16 @@
+﻿@page "/"
+
+<PageTitle>Home Page</PageTitle>
+
+<h1>Hello, Raza!</h1>
+
+Welcome to your new app.
+
+@{
+    var amount = 1 + 2;
+}
+
+<Counter IncrementAmount="1+2" InitialCount="10"/>
+<Counter IncrementAmount=amount />
+
+<Weather />
